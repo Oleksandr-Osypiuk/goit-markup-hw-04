@@ -42,6 +42,13 @@ li {
   /* outline: 2px solid tomato; */
 }
 
+.hero-studio {
+  background-image: url('/images/Img-hero-studio.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -112,6 +119,27 @@ li {
 
 .team-item {
   display: block;
+}
+
+.socials-list {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.socials-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+}
+
+.social-icon {
+  fill: #afb1b8;
 }
 
 .footer-logotype {
@@ -288,6 +316,10 @@ body {
   border: none;
 }
 
+.features {
+  padding-bottom: 0;
+}
+
 .button-portfolio-item:hover,
 .button-portfolio-item:focus {
   color: #ffffff;
@@ -302,6 +334,22 @@ body {
 
 .features-item {
   flex-basis: calc((100% - 3 * 30px) / 4);
+}
+/* .features-group-img {
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+} */
+
+.features-icon {
+  width: 270px;
+  height: 120px;
+  border-radius: 4px;
+  padding: 25px 100px;
+  margin-bottom: 30px;
+  background-color: #f5f4fa;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .features-title {
@@ -335,6 +383,10 @@ body {
   flex-basis: calc((100% - 2 * 30px) / 3);
 }
 
+.img-services {
+  display: block;
+}
+
 .team {
   background-color: #f5f4fa;
 }
@@ -360,6 +412,7 @@ body {
 }
 
 .img-team {
+  display: block;
   border-radius: 0px;
 }
 
@@ -379,7 +432,7 @@ body {
   text-align: center;
 
   padding-top: 10px;
-  padding-bottom: 30px;
+  padding-bottom: 16px;
 }
 
 .projects {
@@ -391,6 +444,10 @@ body {
 .project-items {
   display: block;
   flex-basis: calc((100% - 2 * 30px) / 3);
+}
+
+.img-project {
+  display: block;
 }
 
 .projects-litle-text-group {
@@ -417,6 +474,41 @@ body {
   color: var(--secondary-text-color);
   font-size: 16px;
   line-height: 1.8;
+}
+
+.customers-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2em;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+
+  margin-bottom: 50px;
+}
+.customers-list {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.customers-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+}
+
+.customers-icon {
+  fill: #afb1b8;
 }
 
 .footer {
