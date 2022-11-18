@@ -6,11 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <!-- Normalize -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"/>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
+    />
     <!-- Fonts -->
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-      rel="stylesheet"/>
+      rel="stylesheet"
+    />
     <!-- Styles -->
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
@@ -19,30 +23,34 @@
     <header class="header">
       <div class="container">
         <div class="header-contact">
-        <nav class="header-nav">
-          <a href="./portfolio.html" class="header-logo"><span class="header-web">Web</span>Studio</a>
+          <nav class="header-nav">
+            <a href="./portfolio.html" class="header-logo"
+              ><span class="header-web">Web</span>Studio</a
+            >
 
-          <ul class="site-nav list">
-            <li class="header-item"><a href="./index.html" class="link">Студія</a></li>
-            <li class="header-item"><a href="" class="link current">Портфоліо</a></li>
-            <li class="header-item"><a href="" class="link">Контакти</a></li>
-          </ul>
-        </nav>
+            <ul class="site-nav list">
+              <li class="header-item"><a href="./index.html" class="link">Студія</a></li>
+              <li class="header-item"><a href="" class="link current">Портфоліо</a></li>
+              <li class="header-item"><a href="" class="link">Контакти</a></li>
+            </ul>
+          </nav>
 
-        <ul class="auth-nav list">
+          <ul class="auth-nav list">
             <li class="header-item">
-              <svg class="header-mail-icon" width="16" height="12">
-                <use href="/images/symbol-defs.svg#icon-envelope"></use>
-              </svg>
-              <a href="mailto:info@devstudio.com" class="header-mail-link link"
-                >info@devstudio.com</a
+              <a href="mailto:info@devstudio.com" class="header-mail-link link">
+                <svg class="header-mail-icon" width="16" height="12">
+                  <use href="./images/symbol-defs.svg#icon-envelope"></use>
+                </svg>
+                info@devstudio.com</a
               >
             </li>
             <li class="header-item">
-              <svg class="header-tel-icon" width="10" height="16">
-                <use href="/images/symbol-defs.svg#icon-smartphone"></use>
-              </svg>
-              <a href="tel:+380961111111" class="header-tel-link link">+38 096 111 11 11</a>
+              <a href="tel:+380961111111" class="header-mail-link link">
+                <svg class="header-mail-icon" width="10" height="16">
+                  <use href="./images/symbol-defs.svg#icon-smartphone"></use>
+                </svg>
+                +38 096 111 11 11
+              </a>
             </li>
           </ul>
         </div>
@@ -54,109 +62,174 @@
         <div class="container">
           <h1 class="visually-hidden">Портфоліо</h1>
           <div class="button-portfolio-container">
-          <ul class="button-portfolio list">
-            <li class="portfolio-controls-btn"><button type="button" class="button-portfolio-item btn-all">Усі</button></li>
-            <li class="portfolio-controls-btn"><button type="button" class="button-portfolio-item btn-web">Веб-сайти</button></li>
-            <li class="portfolio-controls-btn"><button type="button" class="button-portfolio-item btn-apps">Додатки</button></li>
-            <li class="portfolio-controls-btn"><button type="button" class="button-portfolio-item btn-design">Дизайн</button></li>
-            <li class="portfolio-controls-btn"><button type="button" class="button-portfolio-item btn-marketing">Маркетинг</button></li>
-          </ul>
+            <ul class="button-portfolio list">
+              <li class="portfolio-controls-btn">
+                <button type="button" class="button-portfolio-item btn-all">Усі</button>
+              </li>
+              <li class="portfolio-controls-btn">
+                <button type="button" class="button-portfolio-item btn-web">Веб-сайти</button>
+              </li>
+              <li class="portfolio-controls-btn">
+                <button type="button" class="button-portfolio-item btn-apps">Додатки</button>
+              </li>
+              <li class="portfolio-controls-btn">
+                <button type="button" class="button-portfolio-item btn-design">Дизайн</button>
+              </li>
+              <li class="portfolio-controls-btn">
+                <button type="button" class="button-portfolio-item btn-marketing">Маркетинг</button>
+              </li>
+            </ul>
           </div>
 
           <ul class="projects list">
             <li class="project-items">
-              <img class="img-project" src="images/img-project-1.jpeg" alt="веб-сайт" width="370" />
-              <div class="projects-litle-text-group">
-                <div class="projects-litle-text">
-              <h2 class="projects-litle">Технокряк</h2>
-              <p class="projects-text">Веб-сайт</p>
-              </div>
-              </div>
-            </li>
-
-            <li class="project-items">
-              <img class="img-project" src="images/img-project-2.jpeg" alt="дизайн" width="370" />
-              <div class="projects-litle-text-group">
-                <div class="projects-litle-text">
-              <h2 class="projects-litle">Постер New Orlean vs Golden Star</h2>
-              <p class="projects-text">Дизайн</p>
+              <a class="project-link" href="">
+                <img
+                  class="img-project"
+                  src="images/img-project-1.jpeg"
+                  alt="веб-сайт"
+                  width="370"
+                />
+                <div class="projects-litle-text-group">
+                  <div class="projects-litle-text">
+                    <h2 class="projects-litle">Технокряк</h2>
+                    <p class="projects-text">Веб-сайт</p>
+                  </div>
                 </div>
-              </div>
+              </a>
             </li>
 
             <li class="project-items">
-              <img class="img-project" src="images/img-project-3.jpeg" alt="додаток" width="370" />
-              <div class="projects-litle-text-group">
-                <div class="projects-litle-text">
-              <h2 class="projects-litle">Ресторан Seafood</h2>
-              <p class="projects-text">Додаток</p>
-              </div>
-              </div>
+              <a class="project-link" href="">
+                <img class="img-project" src="images/img-project-2.jpeg" alt="дизайн" width="370" />
+                <div class="projects-litle-text-group">
+                  <div class="projects-litle-text">
+                    <h2 class="projects-litle">Постер New Orlean vs Golden Star</h2>
+                    <p class="projects-text">Дизайн</p>
+                  </div>
+                </div>
+              </a>
             </li>
 
             <li class="project-items">
-              <img class="img-project" src="images/img-project-4.jpeg" alt="маркетинг" width="370" />
-             <div class="projects-litle-text-group">
-                <div class="projects-litle-text">
-              <h2 class="projects-litle">Проєкт Prime</h2>
-              <p class="projects-text">Маркетинг</p>
-              </div>
-              </div>
+              <a class="project-link" href="">
+                <img
+                  class="img-project"
+                  src="images/img-project-3.jpeg"
+                  alt="додаток"
+                  width="370"
+                />
+                <div class="projects-litle-text-group">
+                  <div class="projects-litle-text">
+                    <h2 class="projects-litle">Ресторан Seafood</h2>
+                    <p class="projects-text">Додаток</p>
+                  </div>
+                </div>
+              </a>
             </li>
 
             <li class="project-items">
-              <img class="img-project" src="images/img-project-5.jpeg" alt="додаток" width="370" />
-              <div class="projects-litle-text-group">
-                <div class="projects-litle-text">
-              <h2 class="projects-litle">Проєкт Boxes</h2>
-              <p class="projects-text">Додаток</p>
-              </div>
-              </div>
-
-            <li class="project-items">
-              <img class="img-project" src="images/img-project-6.jpeg" alt="веб-сайт" width="370" />
-              <div class="projects-litle-text-group">
-                <div class="projects-litle-text">
-              <h2 class="projects-litle">Inspiration has no Borders</h2>
-              <p class="projects-text">Веб-сайт</p>
-              </div>
+              <a class="project-link" href="">
+                <img
+                  class="img-project"
+                  src="images/img-project-4.jpeg"
+                  alt="маркетинг"
+                  width="370"
+                />
+                <div class="projects-litle-text-group">
+                  <div class="projects-litle-text">
+                    <h2 class="projects-litle">Проєкт Prime</h2>
+                    <p class="projects-text">Маркетинг</p>
+                  </div>
+                </div>
+              </a>
             </li>
 
             <li class="project-items">
-              <img class="img-project" src="images/img-project-7.jpeg" alt="дизайн" width="370" />
-              <div class="projects-litle-text-group">
-                <div class="projects-litle-text">
-              <h2 class="projects-litle">Відання Limited Edition</h2>
-              <p class="projects-text">Дизайн</p>
-              </div>
-              </div>
+              <a class="project-link" href="">
+                <img
+                  class="img-project"
+                  src="images/img-project-5.jpeg"
+                  alt="додаток"
+                  width="370"
+                />
+                <div class="projects-litle-text-group">
+                  <div class="projects-litle-text">
+                    <h2 class="projects-litle">Проєкт Boxes</h2>
+                    <p class="projects-text">Додаток</p>
+                  </div>
+                </div>
+              </a>
             </li>
 
             <li class="project-items">
-              <img class="img-project" src="images/img-project-8.jpeg" alt="маркетинг" width="370" />
-              <div class="projects-litle-text-group">
-                <div class="projects-litle-text">
-              <h2 class="projects-litle">Проєкт LAB</h2>
-              <p class="projects-text">Маркетинг</p>
-              </div>
-              </div>
+              <a class="project-link" href="">
+                <img
+                  class="img-project"
+                  src="images/img-project-6.jpeg"
+                  alt="веб-сайт"
+                  width="370"
+                />
+                <div class="projects-litle-text-group">
+                  <div class="projects-litle-text">
+                    <h2 class="projects-litle">Inspiration has no Borders</h2>
+                    <p class="projects-text">Веб-сайт</p>
+                  </div>
+                </div>
+              </a>
             </li>
 
             <li class="project-items">
-              <img class="img-project" src="images/img-project-9.jpeg" alt="додаток-9" width="370" />
-              <div class="projects-litle-text-group">
-                <div class="projects-litle-text">
-              <h2 class="projects-litle">Growing Bus</h2>
-              <p class="projects-text">Додаток</p>
-              </div>
-              </div>
+              <a class="project-link" href="">
+                <img class="img-project" src="images/img-project-7.jpeg" alt="дизайн" width="370" />
+                <div class="projects-litle-text-group">
+                  <div class="projects-litle-text">
+                    <h2 class="projects-litle">Відання Limited Edition</h2>
+                    <p class="projects-text">Дизайн</p>
+                  </div>
+                </div>
+              </a>
+            </li>
+
+            <li class="project-items">
+              <a class="project-link" href="">
+                <img
+                  class="img-project"
+                  src="images/img-project-8.jpeg"
+                  alt="маркетинг"
+                  width="370"
+                />
+                <div class="projects-litle-text-group">
+                  <div class="projects-litle-text">
+                    <h2 class="projects-litle">Проєкт LAB</h2>
+                    <p class="projects-text">Маркетинг</p>
+                  </div>
+                </div>
+              </a>
+            </li>
+
+            <li class="project-items">
+              <a class="project-link" href="">
+                <img
+                  class="img-project"
+                  src="images/img-project-9.jpeg"
+                  alt="додаток-9"
+                  width="370"
+                />
+                <div class="projects-litle-text-group">
+                  <div class="projects-litle-text">
+                    <h2 class="projects-litle">Growing Bus</h2>
+                    <p class="projects-text">Додаток</p>
+                  </div>
+                </div>
+              </a>
             </li>
           </ul>
         </div>
       </section>
     </main>
     <!-- Footer -->
-       <footer class="footer">
+    <footer class="footer">
       <div class="container footer-container">
         <div class="footer-contacts-group">
           <a href="./index.html" class="footer-logo"><span class="footer-web">Web</span>Studio</a>
