@@ -249,17 +249,9 @@ body {
   margin-right: 10px;
 }
 
-/* .header-mail-link {
-  display: flex;
-} */
-
-/* .hero-studio {
-  background-color: var(--secondary-bgr-color);
-} */
-
 .hero-studio {
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-    url('/images/Img-hero-studio.png');
+    url('../images/Img-hero-studio.png');
   background-color: #c4c4c4;
   background-repeat: no-repeat;
   background-position: center;
